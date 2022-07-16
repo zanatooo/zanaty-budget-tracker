@@ -1,0 +1,26 @@
+{
+  "name": "zanaty-budget-tracker",
+  "version": "1.0.0",
+  "description": "Budget Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanatooo/zanaty-budget-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanatooo/zanaty-budget-tracker/issues"
+  },
+  "homepage": "https://github.com/zanatooo/zanaty-budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0"
+  }
+}

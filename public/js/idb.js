@@ -1,25 +1,14 @@
-const indexdb =  window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
-let DB;
-const request = indexdb.open("MyTestDatabase", 3);
-request.onerror = event => {
-    console.log("Why didn't you allow my web app to use IndexedDB?!");
-  };
-  
-  request.onsuccess = event => {
-    
-    db = event.target.result;
-    console.log("You successfully started the app.");
-    if(navigator.online){checkdatabase}
-  };
+let db;
 
-  request.onupgradeneeded = event => {
-    // Save the IDBDatabase interface
+const request = indexedDB.open('budget_tracker',1);
+
+request.onupgradeneeded = function(event)
+{
     const db = event.target.result;
-  
-    // Create an objectStore for this database
-    const objectStore = db.createObjectStore("name", { keyPath: "myKey" });
-  };
-  request.onsuccess = function(event)
+    db.createObjectStore('new_deposit',{autoIncrement: true});
+};
+
+request.onsuccess = function(event)
 {
     db = event.target.result;
     if(navigator.onLine)

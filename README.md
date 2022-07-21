@@ -2,7 +2,7 @@
 
 Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information.
 
-I updated an existing budget tracker application to allow for offline access and functionality. The user would be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online. I deployed the application to [Heroku].
+I updated an existing budget tracker application to allow for offline access and functionality. The user would be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online. I deployed the application to [Heroku](https://floating-fortress-42293.herokuapp.com/).
 
 User Story
 

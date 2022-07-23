@@ -1,5 +1,6 @@
-const CACHE_NAME = 'my-site-cache-v2';
-const DATA_CACHE_NAME = 'data-cache-v2';
+const APP_PREFIX = 'zanaty_budget_tracker-';     
+const VERSION = 'v_01';
+const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
   '/',

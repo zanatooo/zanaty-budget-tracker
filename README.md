@@ -18,7 +18,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 Mock-Up
 The following image shows the web application's appearance and functionality:
 
-At the top of a graph, text says, “Your total is: $250,” above options to add or subtract funds and a chart showing total over time.
+Look At the top of a graph, text says, “Your total is: $250,” above options to add or subtract funds and a chart showing total over time.
 
 ![Screen Shot 2022-07-19 at 6 43 43 PM](https://user-images.githubusercontent.com/67457318/180116135-819a90e6-23a8-4cca-a38e-7ff9a932f7de.png)
 
